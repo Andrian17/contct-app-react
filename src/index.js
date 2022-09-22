@@ -5,9 +5,14 @@ import './styles/style.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ContactApp from './components/ContactApp';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ContactApp />);
+root.render(
+  <BrowserRouter>
+    <ContactApp />
+  </BrowserRouter>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
