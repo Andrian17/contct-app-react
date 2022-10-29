@@ -12,7 +12,7 @@ export class HomePage extends React.Component {
     };
 
     this.onDeleteHandler = this.onDeleteHandler.bind(this);
-    this.onDeleteHandler = this.onKeywordChangeHandler.bind(this);
+    this.onKeywordChangeHandler = this.onKeywordChangeHandler.bind(this);
   }
 
   onDeleteHandler(id) {
